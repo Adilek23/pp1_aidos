@@ -25,4 +25,5 @@ cout << mn;
 cout << endl;
 cout << pos;
 return 0;
+
 }
