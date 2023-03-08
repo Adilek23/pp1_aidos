@@ -1,22 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-int main() {
-    int n = 5, m = 4;
-    int a[n][m]; 
+int main(){
+    int n, m;
+    cin >> n >> m;
+    int a[n][m];
     for (int i = 0; i < n; i++){
         for (int j = 0; j < m; j++){
             cin >> a[i][j];
         }
     }
-
-    // не решена
-
+    int cnt1 = 0, cnt2 = 0;
     for (int i = 0; i < n; i++){
         for (int j = 0; j < m; j++){
-            cout << a[i][j] << " ";
+            if (a[i][j] % 2 == 0){
+                cnt2++;
+            }
+            else cnt1++;
         }
-        cout << endl;
     }
+    cout << cnt2 << " " << cnt1;
 }
- 
