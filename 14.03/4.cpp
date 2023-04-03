@@ -10,8 +10,7 @@ int main() {
         cout << "~~~~~~~~~~~~~~~~~~~~~~";
         cout << endl;
         cout << "Enter your name: ";
-    cin >> s[i];
-    
+        cin >> s[i];    
     cout << "Enter your age: ";
     cin >> a[i];
 

@@ -12,6 +12,7 @@ int main() {
     for (int i = 0; i < 5; i++){
         if (a[i] < 0){
             cnt++;
+            
             sum1 += a[i];
         }
     }
