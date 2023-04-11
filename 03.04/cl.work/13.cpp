@@ -8,6 +8,7 @@ int main(){
     // hello
     // 
     // llo
+
     for (int i = 0; i < s.size(); i++){
         if (s.substr(i,c.size()) == c){
             cout << "yes";
@@ -15,5 +16,4 @@ int main(){
         }
     }
     cout << "no";
-
 }

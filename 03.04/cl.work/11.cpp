@@ -6,7 +6,7 @@ int main(){
     int cntA = 0;
     int cnta = 0;
     for (int i = 0; i < s.size(); i++){
-        if (s[i] >= 'A' and s[i] <= 90){
+        if (s[i] >= 'A' and s[i] <= 'Z'){
             cntA++;
         }
         else if (s[i] >= 'a' and s[i] <= 'z'){
